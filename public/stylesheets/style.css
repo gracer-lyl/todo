@@ -1,0 +1,28 @@
+/* ----------------- reset ------------------- */
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, a,img, th,td,form, fieldset, iframe, object, pre, code, legend, blockquote{margin:0; padding:0; border:0; outline:0}
+ol, ul{list-style:none}
+address, caption, cite, code, dfn, em, th, var {font-style:normal;font-weight:normal;}
+input, button, textarea{font-family:inherit; font-size:100%;}
+input {margin:0; padding:0;}
+table{border-collapse:separate;}
+caption, th, td{/*text-align:left; */font-weight:normal}
+
+body{color:#000; font:12px/1.5 Tahoma,Helvetica,arial,sans-serif; line-height:18px;background-color:#fff;  word-wrap:break-word;}
+a{color:#66C;text-decoration:none;}
+a.img:hover{background:transparent;}
+a img{border: none;}
+a:hover img{background-color:transparent;}
+
+/* ----------------- connmon ------------------- */
+.Fix:after {display:block; content:'\20'; height:0; clear:both;}
+.Fix {zoom: 1;}
+/* ----------------- soso ------------------- */
+.list-profile { width:240px; margin-left:50px; margin-top:30px; border: 1px solid #CCCCCC; color: #666666;}
+.list-profile label { display:inline-block;width:60px;margin-right:10px;text-align:right;}
+.list-profile .list-item { height: 40px;line-height:40px;padding-top:15px;}
+.list-profile .submit {padding-left:112px;}
+.list-profile input {border: 1px solid #CCCCCC; width:120px;height:20px;line-height:20px;padding:3px;}
+.list-profile .submit input {width:60px;height:30px;line-height:30px;padding:0px;cursor:pointer;}
+
+.list { width:120px; margin-left:50px; margin-top:30px; border: 1px solid #CCCCCC;color:#666666; }
+.list .item { height: 30px; line-height:30px; padding-left:30px;border-bottom:1px solid #CCCCCC;background-color:#EFEFEF;}
